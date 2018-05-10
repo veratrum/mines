@@ -1,0 +1,48 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+	font-family: Verdana;
+}
+
+div#title, div#new-game, div#field-container, div#navigation {
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+}
+
+div#title, div#new-game, div#field-container {
+	height: 540px;
+}
+
+div#new-game, div#field-container, p#back-button, p#continue-game-button, p#forfeit-button {
+	display: none;
+}
+
+canvas#field {
+	display: inline;
+}
+
+p#back-button, p#new-game-button, p#continue-game-button, p#forfeit-button, p#start-small, p#start-medium, p#start-large {
+	cursor: pointer;
+	user-select: none;
+}
+
+div#banner {
+	height: 20px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: "DejaVu Sans Mono";
+	text-align: center;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 0px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+@font-face {
+	font-family: "DejaVu Sans Mono";
+	src: url("DejaVuSansMono.ttf");
+}
